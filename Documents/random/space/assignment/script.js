@@ -1,7 +1,8 @@
 
+// SAST Rocket Launch Countdown Timer
 const launchDate = new Date('2025-12-01T18:00:00');
 
-
+// Updates the countdown display every second
 function updateCountdown() {
     // Get current time
     const now = new Date();
